@@ -1,0 +1,167 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body{
+    height:200vh;
+    width: 100%;
+    background-color:'#ffffff';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+/*     gap: 10px; */
+ 
+}
+
+h1{
+    text-align: center;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: black;
+    margin-top:0;
+    margin-bottom: -12px;
+}
+
+h4{
+    font-weight: 200;
+    color:rgb(62, 61, 61);
+    text-align: center;
+    font-family: monospace;
+}
+.expense-record{
+    margin-top:4px;
+  /*   width: 100%; */
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    gap:2px;
+    align-items: center;
+}
+.expense-record>div{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    height: 50px;
+    width: 40%;
+    padding: 12px;
+    margin-top:4px;
+    margin-bottom:6px;
+}
+
+input {
+  margin-top: 6px;
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid "#ccc";
+  border-radius: 2px;
+  font-size: 16px;
+  outline: none;
+  font-family: monospace;
+}
+
+input:focus {
+  border-color: #333;
+   border: 0.8px solid rgb(32, 144, 230);
+}
+
+label{
+    font-size: medium;
+    color: '#ccc';
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+button[type=button]{
+    font-size: small;
+    width:40%;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: rgb(32, 144, 230);
+    border: 0;
+    font-size: 20px;
+    margin-top:10px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+/* Section section with the table */
+
+.expense-table{
+    width: 40%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   /*  justify-content: center; */
+    margin-top: 2%;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #4181ef;
+  color: white;
+  font-weight: bold;
+}
+
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+tr:hover{
+    border-color: #f2f2f2;
+    opacity: 0.8;
+    transition: transform 0.5s ease;
+  
+}
+.logo-section{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+    height: 60px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.logo-section>img{
+    margin-bottom: 2px;
+    margin-right: 12px;
+}
+
+
+.video-container {
+margin-top: 12px;
+  width: 100%;
+  max-width: 800px;
+  aspect-ratio: 16 / 9;
+}
+
+.video-container iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 1px;
+}
+
+.details{
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
