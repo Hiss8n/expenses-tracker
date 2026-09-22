@@ -10,13 +10,28 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="logo-section">
+<section class="layout">
+  <aside class="sidebar">
+    Sidebar
+  </aside>
+
+  <main class="main">
+    <header class="header">
+      <div class="logo-section">
     <img src="logo.png" width="50" height="50">
     <h1>EXPENSE TRACKER</h1>
-    </div>
     
+    </div>
     <h4>Track your income and expenses in one place.</h4>
-    <section class="expense-record">
+    </header>
+
+    <div class="content">
+      <div class="car">
+        <section class="expense-record">
+          
+            <h3 class="create-record">Create a record</h3>
+           
+       
         <form>   
         <div>
             <label for="">Expense name:</label>
@@ -28,7 +43,7 @@
         </div>
           <div>
             <label for="">Expense categroy:</label>
-            <select id="expense-category">
+            <select id="expense-category" class="expense-category">
                 <option>Food</option>
                 <option>Transport</option>
                 <option>Rent</option>
@@ -40,9 +55,14 @@
   
          </form>
            </section>
-           
-    <section class="expense-table">
-        <h2>Your Expenses</h2>
+        
+      </div>
+
+      <!-- Expense table -->
+      <div class="">
+        <h4>Your Expenses</h4>
+         <section class="expense-table">
+        
         <table border="1">
             <thead>
                 <tr>
@@ -95,21 +115,12 @@
       
     </section>
 
-    <section>
-<div class="video-container">
-   <iframe
-   
-   frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-    title="YouTube video"
-    allowfullscreen>
-    
-  </iframe>
-</div>
-    </section>
+      </div>
 
-    <section class="details">
+      <!-- Summary -->
+      <div class="car">
+<section class="details">
+    <h4>Your Expenses</h4>
 <details>
   <summary>Entertainment</summary>
 
@@ -125,6 +136,43 @@
     Most of your expeniture runs at the middle of the month
   </p>
 </details>
+    </section> 
+      </div>
+      
+    </div>
+
+    <!-- Video area -->
+
+<section class="video-container">
+
+   <iframe
+   frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+    title="YouTube video"
+    allowfullscreen>
+    
+  </iframe>
+  <h5>Watch this vidoe</h5>
+</div>
     </section>
+  </main>
+</section>
+<!-- <div class="layout">
+    <div class="logo-section">
+    <img src="logo.png" width="50" height="50">
+    <h1>EXPENSE TRACKER</h1>
+    </div>
+    
+    <h4>Track your income and expenses in one place.</h4>
+
+ </div> -->
+   <!--         
+   
+ -->
+ <!-- 
+
+
+        -->
 </body>
 </html>
