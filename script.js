@@ -1,28 +1,63 @@
-console.log("Hello spendewise!!")
 
-let totalBudget;
+const appName = "SpendWise";
 
+let initialBudget = 50000;
 
-let expenseName;
-let category;
-let expenseAmount;
+let expenseName = "Lunch";
 
-let date;
-
-let totalBalance;
-totalBudget=Number(prompt("Enter your total budget:"));
-
-expenseName=Number(prompt("Enter expense name:"))
-expenseAmount=Number(prompt("Enter expense amount:"))
-category=Number(prompt("Enter expense category:"))
-date= new Date().getDate()
-totalBalance=totalBudget-expenseAmount
+let expenseAmount = 500;
 
 
-function calculateBalance(totalBudget,expense){
-    return Number(totalBudget)-Number(expense)
+
+
+let budget =
+Number(
+prompt("Enter your budget:")
+);
+
+let expense =
+Number(
+prompt("Enter your expense:")
+);
+
+
+let remaining =
+budget - expense;
+
+function calculateBalance(
+budget,
+expense
+){
+return budget - expense;
 }
 
 
-console.log("bal:",calculateBalance(500,200))
-console.log("Balance:",totalBalance)
+function calculateWeeklyBudget(
+monthlyBudget
+){
+return monthlyBudget / 4;
+}
+
+let balance =
+calculateBalance(
+budget,
+expense
+);
+
+let weeklyBudget =
+calculateWeeklyBudget(
+budget
+);
+
+
+
+
+console.log(
+"Remaining Balance:",
+balance
+);
+
+console.log(
+"Weekly Budget:",
+weeklyBudget
+);
