@@ -49,10 +49,16 @@ body{
   align-items: center;
   justify-content: center;
   gap: 12px;
+  margin-bottom: 28px;
 }
 .logo{
   display:flex;
  
+}
+.tag{
+  font-weight: 200;
+  color: var(--text-color);
+
 }
 .logo>img{
   width: 50px;
@@ -123,6 +129,7 @@ justify-content: space-between;
   align-items: center;
 }
 .expense-record{
+  margin-top: 16px;
 margin-top:4px;
    width: 100%;
     display: flex;
@@ -242,9 +249,9 @@ background-color: var(--primary-color);
   border: 0.2px solid var(--text-focus);
   padding: 10px;
   text-align: left;
-  font-weight: 300;
-  color: var(--secondary-color);
-  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-focus);
+  font-size: 20px;
   
 }
 
@@ -339,7 +346,10 @@ margin-top:10px;
 .sidebar>h3{
   text-align: center;
   padding:15px 8px;
-  border-bottom: 0.2px solid var(--box-shadow-color);
+  border-bottom: 0.2px solid var(--text-focus);
+  font-weight:800 ;
+  cursor:grab ;
+  color: var(--text-focus);
 }
 .categories{
   display:flex ;

@@ -82,8 +82,8 @@
       </div>
       <div>
 
-       <h1>EXPENSE TRACKER</h1>
-       <h4>Track your income and expenses in one place.</h4>
+       <h1 id="app-name">EXPENSE TRACKER</h1>
+       <h5 class="tag">Track your income and expenses in one place.</h5>
           </div>
 
 
@@ -93,17 +93,17 @@
      <!-- Quick stats -->
     <section class="stats">
       <div class="unit card"><h3>Total Amount</h3>
-        <span>$300</span>
+        <span id="total-amount">$300</span>
 
 
       </div>
       <div class="unit card">
         <h3>Expenses</h3>
-        <span>$100</span>
+        <span id="total-expenses">$100</span>
       </div>
       <div class="unit card">
         <h3>Balance</h3>
-        <span>$ 200</span>
+        <span id="total-balances">$ 200</span>
       </div>
       
     </section>
@@ -116,7 +116,7 @@
       <h4>Create a Record</h4>
         
     
-    <form>   
+    <form id="expense-form">   
     <div>
         <label for="">Expense name:</label>
         <input type="text" placeholder="personal needs.." id="expense-name">
@@ -135,7 +135,7 @@
             <option>Other</option>
         </select>
     </div>
-      <button type="button">Add Expense</button>
+      <button type="submit">Add Expense</button>
 
       </form>
     </section>
@@ -152,7 +152,7 @@
                     <th>Date</th>
                 </tr> 
             </thead>
-            <tbody>
+            <tbody id="table-body">
                 <tr>
                 <td>Theatre</td>
                 <td>200</td>

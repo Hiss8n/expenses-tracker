@@ -38,3 +38,17 @@ Modulo (%)
 All arithmetical calculations expects the values to either be an interger or a floating point number. Any values that are entered in the inputs must be converted if not into the mentioned data types.
 
 Functions- are used to run a set of piece of code that needs to run several times. In calculations, functions are used to take in valuex, then perform the required operations and return the value that is expected back as a variable. Functions prevent the repetations of long peice of code again and again.These keepd code base clean and tidy by reducing repetitions.
+
+Improvement on spendwise
+
+There is data validations before the calculations are don
+Using if else statments amek sure the user enters the corect data to avoid negative values where they are not expected.
+
+Two arrays
+oe to store data for monthly spenditure and the other to store weekly spenditure
+The DOM elements are updated using the javascript fucniton
+Using the innerHTML content and innerText content to change the elements of the html in the html file
+user interactions are hander thorugh the eventLisner  such as click,houver,drag,drop and many more
+
+
+
