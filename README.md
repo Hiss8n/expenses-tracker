@@ -1,4 +1,3 @@
-
 ##Table
 
 
@@ -49,6 +48,10 @@ oe to store data for monthly spenditure and the other to store weekly spenditure
 The DOM elements are updated using the javascript fucniton
 Using the innerHTML content and innerText content to change the elements of the html in the html file
 user interactions are hander thorugh the eventLisner  such as click,houver,drag,drop and many more
+
+## Live Deployment
+
+[Spendwise](https://spendwiselr.netlify.app/)
 
 
 

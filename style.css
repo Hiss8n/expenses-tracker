@@ -50,6 +50,7 @@ body{
   justify-content: center;
   gap: 12px;
   margin-bottom: 28px;
+  background: #2090e6;
 }
 .logo{
   display:flex;
